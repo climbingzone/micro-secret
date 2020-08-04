@@ -1,0 +1,27 @@
+{
+  "name": "micro-secret",
+  "version": "1.1.6",
+  "description": "Bearer secret wrapper for micro / vercel lambda functions",
+  "repository": "https://github.com/climbingzone/micro-secret",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "vercel",
+    "Bearer secret",
+    "Authentication",
+    "wrapper",
+    "lambda"
+  ],
+  "pubic": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Nick McIntosh <nick@nickmcintosh.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {}
+}

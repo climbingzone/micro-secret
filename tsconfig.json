@@ -1,0 +1,26 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true,
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    // Enable support for importing CommonJS modules targeting es6 modules
+    "esModuleInterop": true,
+    // When using above interop will get missing default export error from type check since
+    // modules use "export =" instead of "export default", enable this to ignore errors.
+    "allowSyntheticDefaultImports": true
+  }
+}
