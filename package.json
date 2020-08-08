@@ -1,6 +1,6 @@
 {
   "name": "micro-secret",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Bearer secret wrapper for micro / vercel lambda functions",
   "repository": "https://github.com/climbingzone/micro-secret",
   "main": "./dist/index.js",

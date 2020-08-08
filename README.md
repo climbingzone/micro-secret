@@ -2,7 +2,7 @@
 
 ## Use case
 
-For when you want simple Bearer secret authentication of a [micro]](https://www.npmjs.com/package/micro) service or [vercel](https://vercel.com) node.js lambda.
+For when you want simple Bearer secret authentication of a [micro](https://www.npmjs.com/package/micro) service or [vercel](https://vercel.com) node.js lambda.
 
 ## What it does
 
